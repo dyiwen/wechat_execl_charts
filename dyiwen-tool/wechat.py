@@ -8,10 +8,10 @@ import requests
 import time
 
 
-Toparty = "8"
-AgentID = 1000020
-CropID = "ww81574f0e4b5b1fd8"
-Secret = "YjmrxjtH-YTEmATh_ZFeYUbeejkBXH7Y_zJxunc7EJo"
+Toparty = ""
+AgentID = 
+CropID = ""
+Secret = ""
 Gtoken = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=" + CropID + "&corpsecret=" + Secret
 headers = {'Content-Type':'application/json'}
 json_data = json.loads(requests.get(Gtoken).content.decode())
